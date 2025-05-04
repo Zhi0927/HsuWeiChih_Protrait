@@ -3,35 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HsuWeiChih Protrait</title>
-
-    <link rel="stylesheet" href="pdfjs-5.2.133-dist/web/viewer.css">
-    <script scr="pdfjs-5.2.133-dist/build/pdf.js"></script>
-    <script scr="pdfjs-5.2.133-dist/web/viewer.js"></script>
+    <title>徐偉智 作品集預覽</title>
     
     <style>
         body{
+            background-color: #111;
+            color: white;
+            text-align: center;
             margin: 0;
-            padding: 0;
-            background-color: rgb(40, 40, 40);
+            padding: 3rem;
+            font-family: "Noto Sans TC", sans-serif;
+            line-height: 1.8;
+
             overflow: hidden;
-            width:  "100%";
-            height: "100%";
+            width:  100%;
+            height: 100%;
+        }
+        a {
+            color: #00aaff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
+
+    <script>
+        window.location.href = "HsuWeiChih_Protrait.pdf";
+    </script>
 
 </head>
 
 <body>
-    <div style="width: 80%;margin: auto;">
-        <iframe src="HsuWeiChih_Protrait.pdf"
-                width="100%"
-                height="100%"
-                frameborder="0"
-                border="0"
-                style="position:absolute; left: 0; top: 0;"
-                cellspacing="0">
-            </iframe>
-      </div>
+    <p>
+        作品集載入中⋯⋯<br><br>
+        若未自動開啟，請點選下方連結<br><br>
+        <a href="HsuWeiChih_Protrait.pdf">👉&nbsp;點我觀看 PDF 作品集&nbsp;👈</a>
+    </p>
 </body>
+
 </html>
